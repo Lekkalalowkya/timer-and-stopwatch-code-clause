@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b8a2a2;
+}
+
+.timer, .stopwatch {
+  display: inline-block;
+  width: 600px;
+  height: 500px;
+  padding: 70px;
+  margin: auto;
+  background-color: #64a6a800;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.timer {
+  border: 5px solid #FFC300;
+}
+
+.stopwatch {
+  border: 5px solid #FFC300;
+}
+
+.display {
+  font-size: 72px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.controls {
+  text-align: center;
+}
+
+button {
+  background-color: #3498DB;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ee10ea;
+}
+
+button:active {
+  background-color: #3a02d1;
+}
